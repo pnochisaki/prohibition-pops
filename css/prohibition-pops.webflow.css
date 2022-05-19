@@ -448,7 +448,9 @@ body {
 
 .container-5 {
   display: block;
+  margin-top: 60px;
   margin-bottom: 0px;
+  padding-top: 55%;
   padding-bottom: 0px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -466,6 +468,23 @@ body {
   -webkit-align-items: baseline;
   -ms-flex-align: baseline;
   align-items: baseline;
+}
+
+.color-hero {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: block;
+}
+
+.bw-hero {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
 }
 
 @media screen and (max-width: 991px) {
