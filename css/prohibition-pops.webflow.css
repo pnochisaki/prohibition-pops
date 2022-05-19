@@ -39,6 +39,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   background-color: #5aa02c;
+  box-shadow: 3px 3px 20px -2px rgba(0, 0, 0, 0.74);
   font-size: 26px;
   text-align: center;
   letter-spacing: 1px;
@@ -317,8 +318,8 @@ body {
 
 .image-10 {
   position: relative;
-  left: 48%;
-  top: 5%;
+  left: 33%;
+  top: auto;
 }
 
 .image-11 {
@@ -409,10 +410,10 @@ body {
 
 .div-block-3 {
   position: absolute;
-  left: 0%;
+  left: 52%;
   top: auto;
-  right: 0%;
-  bottom: 39%;
+  right: auto;
+  bottom: 41%;
   display: block;
   margin: auto;
   -webkit-box-pack: center;
@@ -427,22 +428,22 @@ body {
 
 .div-block-4 {
   position: absolute;
-  left: 41%;
-  top: 0%;
+  left: 36%;
+  top: -2%;
   margin: auto;
 }
 
 .div-block-5 {
   position: absolute;
   left: 0%;
-  bottom: 35%;
+  bottom: 33%;
   margin: auto;
 }
 
 .div-block-6 {
   position: absolute;
   left: 45%;
-  top: 64%;
+  top: 57%;
   margin: auto;
 }
 
@@ -650,18 +651,20 @@ body {
   }
 
   .div-block-3 {
-    bottom: 63%;
+    left: 54%;
+    bottom: 66%;
   }
 
   .div-block-4 {
-    left: 41%;
+    left: 39%;
   }
 
   .div-block-5 {
-    bottom: 58%;
+    bottom: 60%;
   }
 
   .div-block-6 {
+    left: 41%;
     top: 35%;
   }
 }
@@ -761,7 +764,7 @@ body {
 
   .div-block-6 {
     left: 43%;
-    top: 27%;
+    top: 24%;
   }
 }
 
@@ -868,7 +871,7 @@ body {
 
   .div-block-6 {
     left: 45%;
-    top: 14%;
+    top: 12%;
   }
 }
 
