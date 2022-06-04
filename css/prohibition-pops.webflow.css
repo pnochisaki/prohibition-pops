@@ -1,17 +1,9 @@
 body {
   font-family: clarendon-text-pro, sans-serif;
   color: #333;
-  font-size: 14px;
+  font-size: 10px;
   line-height: 20px;
   font-weight: 700;
-}
-
-.image {
-  position: relative;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: auto;
 }
 
 .button {
@@ -24,12 +16,11 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 160px;
-  height: 50px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  width: 12rem;
+  height: 4rem;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+  padding: 0vw;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -40,9 +31,10 @@ body {
   align-items: center;
   background-color: #5aa02c;
   box-shadow: 3px 3px 20px -2px rgba(0, 0, 0, 0.74);
-  font-size: 20px;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 
 .container {
@@ -51,9 +43,10 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 1200px;
-  padding-right: 20px;
-  padding-left: 20px;
+  overflow: hidden;
+  max-width: 90%;
+  padding-right: 0vw;
+  padding-left: 0vw;
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
@@ -70,68 +63,66 @@ body {
 .heading {
   position: relative;
   display: inline-block;
-  margin-right: auto;
-  margin-bottom: 20px;
-  margin-left: auto;
+  margin: 2vw auto;
   font-family: Wichita, sans-serif;
   color: #000;
-  font-size: 54px;
-  line-height: 52px;
+  font-size: 4rem;
+  line-height: 4rem;
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 
 .paragraph {
   position: relative;
   display: block;
   max-width: 480px;
-  margin-top: 10px;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin: 0vw 0px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #000;
-  font-size: 19px;
-  line-height: 30px;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
   font-weight: 400;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
 }
 
 .div-block {
   position: relative;
+  overflow: hidden;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 100px;
+  padding-left: 5vw;
 }
 
 .hero-section {
   position: relative;
   max-height: none;
-  margin-bottom: 180px;
+  margin-bottom: 0vw;
   padding-top: 0px;
-  padding-bottom: 180px;
+  padding-bottom: 22vw;
 }
 
 .section-2 {
   position: static;
   margin: 0px;
-  padding: 80px 0px;
+  padding: 15vw 0px 0vw;
 }
 
 .button-2 {
   position: relative;
-  top: 29px;
+  top: 3.2vw;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 180px;
-  height: 70px;
+  width: 12rem;
+  height: 4rem;
   margin-top: 0px;
   margin-bottom: 15%;
+  padding: 0vw;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -145,9 +136,10 @@ body {
   border-color: #000;
   background-color: #fff;
   color: #000;
-  font-size: 22px;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 
 .image-6 {
@@ -166,9 +158,10 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 1200px;
-  padding-right: 20px;
-  padding-left: 20px;
+  overflow: hidden;
+  max-width: 90%;
+  padding-right: 0vw;
+  padding-left: 0vw;
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
@@ -179,14 +172,14 @@ body {
 }
 
 .div-block-2 {
-  padding-right: 100px;
+  padding-right: 5vw;
 }
 
 .section-3 {
   position: static;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 80px 0px;
+  padding: 10vw 0px;
 }
 
 .section-5 {
@@ -194,9 +187,9 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 500px;
-  margin-top: 80px;
-  padding: 0px 20px;
+  height: 40rem;
+  margin-top: 3vw;
+  padding: 0px 5vw;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -211,27 +204,26 @@ body {
 .heading-3 {
   position: relative;
   display: inline-block;
-  margin-right: auto;
-  margin-bottom: 20px;
-  margin-left: auto;
+  margin: 0vw auto 2vw;
   font-family: Wichita, sans-serif;
   color: #fff;
-  font-size: 54px;
-  line-height: 52px;
-  letter-spacing: 1px;
+  font-size: 4rem;
+  line-height: 4rem;
+  letter-spacing: 0.1rem;
 }
 
 .button-3 {
   position: relative;
-  top: 29px;
+  top: 3.2vw;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 180px;
-  height: 70px;
-  margin-top: 30px;
+  width: 12rem;
+  height: 4rem;
+  margin-top: 0vw;
   margin-bottom: 0px;
+  padding: 0vw;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -245,19 +237,14 @@ body {
   border-color: #fff;
   background-color: #000;
   color: #fff;
-  font-size: 22px;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 
 .container-3 {
   padding-top: 0px;
-}
-
-.image-7 {
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .section-6 {
@@ -265,7 +252,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 80px 20px;
+  padding: 5vw 20vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -282,21 +269,32 @@ body {
 }
 
 .image-8 {
+  display: block;
   margin-right: auto;
-  margin-bottom: 61px;
+  margin-bottom: 8vw;
   margin-left: auto;
-  padding-top: 30px;
-  padding-bottom: 100px;
+  padding-top: 0vw;
+  padding-bottom: 4vw;
 }
 
 .container-4 {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 50px;
-  padding-bottom: 39px;
+  display: block;
+  padding-top: 0vw;
+  padding-bottom: 0vw;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .paragraph-2 {
@@ -306,37 +304,21 @@ body {
   right: 0%;
   bottom: 0%;
   margin-right: auto;
-  margin-bottom: 30px;
+  margin-bottom: 3vw;
   margin-left: auto;
-  padding-bottom: 20px;
+  padding-bottom: 0vw;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #000;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
   font-weight: 400;
   text-align: center;
-}
-
-.body {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding-right: 0px;
-  padding-left: 0px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+  letter-spacing: 0rem;
 }
 
 .section-7 {
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 20vw;
+  padding-left: 20vw;
 }
 
 .image-9 {
@@ -361,65 +343,60 @@ body {
   position: relative;
   display: block;
   max-width: 480px;
-  margin-top: 10px;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin: 0vw 0px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #000;
-  font-size: 19px;
-  line-height: 30px;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
   font-weight: 400;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
 }
 
 .paragraph-3 {
   position: relative;
   display: block;
   max-width: 480px;
-  margin-top: 10px;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin: 0vw 0px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #fff;
-  font-size: 19px;
-  line-height: 30px;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
   font-weight: 400;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
 }
 
 .heading-2 {
   position: relative;
   display: inline-block;
-  margin-right: auto;
-  margin-bottom: 20px;
-  margin-left: auto;
+  margin: 2vw auto;
   font-family: Wichita, sans-serif;
   color: #000;
-  font-size: 54px;
-  line-height: 52px;
+  font-size: 4rem;
+  line-height: 4rem;
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 
 .button-4 {
   position: relative;
-  top: 29px;
+  top: 3.2vw;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 180px;
-  height: 70px;
+  width: 12rem;
+  height: 4rem;
   margin-top: 0px;
   margin-bottom: 15%;
+  padding: 0vw;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -433,9 +410,10 @@ body {
   border-color: #000;
   background-color: #fff;
   color: #000;
-  font-size: 22px;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 
 .div-block-3 {
@@ -474,7 +452,7 @@ body {
 .div-block-6 {
   position: absolute;
   left: 59%;
-  top: 54%;
+  top: 59%;
   margin: auto;
 }
 
@@ -483,7 +461,7 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
-  padding-bottom: 80px;
+  padding-bottom: 30vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -511,7 +489,7 @@ body {
   top: 0%;
   right: 0%;
   bottom: auto;
-  display: block;
+  display: inline-block;
 }
 
 .bw-hero {
@@ -523,85 +501,47 @@ body {
 }
 
 .container-6 {
-  max-width: 1100px;
+  max-width: none;
 }
 
 .html-embed {
-  width: 1100px;
-  max-width: 1100px;
-}
-
-.container-7 {
-  position: relative;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: auto;
   display: block;
-  margin-top: 120px;
-  margin-bottom: 120px;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  width: auto;
+  max-width: none;
+  margin-right: auto;
+  margin-bottom: 0vw;
+  margin-left: auto;
 }
 
 .heading-4 {
+  margin-top: 0vw;
+  margin-bottom: 0px;
   font-family: Wichita, sans-serif;
   color: #000;
-  font-size: 58px;
+  font-size: 4rem;
+  line-height: 4.4rem;
   text-align: center;
-  letter-spacing: 2px;
-}
-
-.section-8 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 0px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
-
-.container-8 {
-  position: relative;
-  max-width: 100%;
-  margin-bottom: 60px;
-  padding-bottom: 60px;
+  letter-spacing: 0.2rem;
 }
 
 .container-9 {
   position: relative;
-  padding-bottom: 60px;
+  max-width: 80%;
+  padding-right: 0vw;
+  padding-bottom: 3vw;
+  padding-left: 0vw;
 }
 
 @media screen and (max-width: 991px) {
   .button {
     left: auto;
     top: auto;
-    width: 140px;
-    height: 40px;
-    max-width: 100%;
-    font-size: 18px;
+    width: 8rem;
+    height: 3rem;
+    max-width: none;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0rem;
   }
 
   .container {
@@ -615,7 +555,7 @@ body {
     top: 0%;
     right: auto;
     bottom: 0%;
-    padding-top: 11px;
+    padding-top: 0vw;
     -o-object-fit: contain;
     object-fit: contain;
   }
@@ -627,8 +567,8 @@ body {
     right: 0%;
     bottom: 0%;
     margin-top: 0px;
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 2rem;
+    line-height: 2rem;
   }
 
   .paragraph {
@@ -638,10 +578,11 @@ body {
     right: 0%;
     bottom: 0%;
     display: block;
+    max-width: none;
     margin-top: 0px;
     color: #000;
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 1rem;
+    line-height: 1.2rem;
   }
 
   .div-block {
@@ -663,24 +604,22 @@ body {
   }
 
   .hero-section {
-    padding-bottom: 120px;
+    padding-bottom: 22vw;
   }
 
   .section-2 {
-    padding-right: 20px;
-    padding-bottom: 0px;
-    padding-left: 20px;
+    padding: 15vw 0vw 0px;
   }
 
   .button-2 {
-    top: 20px;
+    top: 3.2vw;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 140px;
-    height: 50px;
-    font-size: 18px;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
     letter-spacing: 0px;
   }
 
@@ -690,7 +629,7 @@ body {
     top: 0%;
     right: 0%;
     bottom: 0%;
-    padding-top: 33px;
+    padding-top: 0vw;
   }
 
   .container-2 {
@@ -710,24 +649,37 @@ body {
   .section-3 {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-right: 20px;
-    padding-bottom: 120px;
-    padding-left: 20px;
+    padding-right: 0vw;
+    padding-bottom: 10vw;
+    padding-left: 0vw;
+  }
+
+  .section-5 {
+    height: 32rem;
+    padding-right: 15vw;
+    padding-left: 15vw;
+  }
+
+  .heading-3 {
+    font-size: 2rem;
+    line-height: 2rem;
   }
 
   .button-3 {
-    width: 140px;
-    height: 50px;
-    font-size: 18px;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
   }
 
   .image-8 {
-    width: 300px;
+    width: auto;
+    max-width: 65%;
+    padding-bottom: 6vw;
   }
 
   .paragraph-2 {
-    font-size: 17px;
-    line-height: 22px;
+    font-size: 1rem;
+    line-height: 1.3rem;
   }
 
   .image-9 {
@@ -746,21 +698,28 @@ body {
   }
 
   .paragraph-copy {
+    max-width: none;
     margin-top: 0px;
     color: #000;
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .paragraph-3 {
+    max-width: none;
+    font-size: 1rem;
+    line-height: 1.2rem;
   }
 
   .heading-2 {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 2rem;
+    line-height: 2rem;
   }
 
   .button-4 {
-    width: 140px;
-    height: 50px;
-    font-size: 18px;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
     letter-spacing: 0px;
   }
 
@@ -782,32 +741,27 @@ body {
 
   .div-block-6 {
     left: 54%;
-    top: 68%;
+    top: 66%;
+  }
+
+  .container-5 {
+    padding-bottom: 30vw;
   }
 
   .container-6 {
-    max-width: 700px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .html-embed {
-    width: 700px;
-    max-width: 700px;
-  }
-
-  .container-7 {
-    display: none;
-    margin-top: 6px;
-    margin-bottom: 0px;
-    padding-top: 20px;
-    padding-bottom: 0px;
+    width: auto;
+    max-width: none;
   }
 
   .heading-4 {
-    font-size: 44px;
-  }
-
-  .section-8 {
-    padding-top: 0px;
+    font-size: 2rem;
+    line-height: 2rem;
   }
 }
 
@@ -815,30 +769,34 @@ body {
   .button {
     left: auto;
     top: auto;
-    width: 125px;
-    height: 35px;
-    font-size: 15px;
+    width: 6rem;
+    height: 2rem;
+    font-size: 0.8rem;
   }
 
   .container {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 0vw;
+    padding-left: 0vw;
+  }
+
+  .image-5 {
+    max-width: 53%;
   }
 
   .heading {
-    margin-bottom: 13px;
-    font-size: 26px;
-    line-height: 26px;
+    margin-bottom: 1vw;
+    font-size: 2rem;
+    line-height: 2rem;
   }
 
   .paragraph {
     top: auto;
     right: auto;
     bottom: auto;
-    max-width: 220px;
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 18px;
+    max-width: none;
+    margin-bottom: 0vw;
+    font-size: 1rem;
+    line-height: 1.1rem;
   }
 
   .div-block {
@@ -854,14 +812,19 @@ body {
   }
 
   .section-2 {
-    padding-top: 20px;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
   }
 
   .button-2 {
-    width: 100px;
-    height: 40px;
-    font-size: 12px;
-    line-height: 18px;
+    width: 6rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+
+  .image-6 {
+    max-width: 53%;
   }
 
   .container-2 {
@@ -875,8 +838,24 @@ body {
   }
 
   .section-3 {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding: 0vw 0vw 10vw;
+  }
+
+  .section-5 {
+    height: 25rem;
+    margin-top: 0vw;
+  }
+
+  .heading-3 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .button-3 {
+    width: 6rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
   }
 
   .section-6 {
@@ -907,41 +886,55 @@ body {
 
   .paragraph-copy {
     max-width: 220px;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 1rem;
+    line-height: 1.1rem;
+  }
+
+  .paragraph-3 {
+    font-size: 1rem;
+    line-height: 1.1rem;
   }
 
   .heading-2 {
-    margin-bottom: 13px;
-    font-size: 26px;
-    line-height: 26px;
+    margin-bottom: 1vw;
+    font-size: 2rem;
+    line-height: 2rem;
   }
 
   .button-4 {
-    top: 20px;
-    width: 100px;
-    height: 40px;
-    font-size: 12px;
-    line-height: 18px;
+    top: 3.2vw;
+    width: 6rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
   }
 
   .div-block-6 {
     left: 59%;
-    top: 71%;
+    top: 80%;
   }
 
   .container-6 {
     max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .html-embed {
-    width: 500px;
-    max-width: 500px;
+    width: auto;
+    max-width: none;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .heading-4 {
     margin-bottom: 0px;
-    font-size: 34px;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .container-9 {
+    padding-bottom: 4vw;
   }
 }
 
@@ -949,12 +942,12 @@ body {
   .button {
     left: auto;
     top: auto;
-    width: 90px;
-    height: 30px;
+    width: 6rem;
+    height: 2rem;
     padding-right: 0px;
     padding-left: 0px;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 0.8rem;
+    line-height: 1rem;
   }
 
   .container {
@@ -974,9 +967,14 @@ body {
     padding-top: 0px;
   }
 
+  .heading {
+    margin-bottom: 2vw;
+  }
+
   .paragraph {
-    font-size: 14px;
-    line-height: 20px;
+    margin-bottom: 2vw;
+    font-size: 1rem;
+    line-height: 1.3rem;
   }
 
   .div-block {
@@ -986,22 +984,21 @@ body {
     max-width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 20px;
+    padding-top: 10vw;
   }
 
   .hero-section {
     margin-bottom: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 30vw;
   }
 
   .section-2 {
-    padding-top: 20px;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding: 25vw 0px 0vw;
   }
 
   .image-6 {
     position: relative;
+    right: auto;
     display: block;
     max-width: 100%;
     margin-right: auto;
@@ -1009,71 +1006,87 @@ body {
     padding-top: 0px;
   }
 
+  .container-2 {
+    padding-right: 0vw;
+    padding-left: 0vw;
+  }
+
   .div-block-2 {
     display: block;
     max-width: 100%;
-    padding-top: 20px;
+    padding-top: 10vw;
   }
 
   .section-3 {
     position: static;
-    padding-top: 40px;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding: 0vw 0px;
   }
 
   .section-5 {
-    margin-top: 40px;
+    margin-top: 2rem;
   }
 
   .heading-3 {
-    padding-right: 20px;
-    padding-left: 20px;
-    font-size: 42px;
+    display: block;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    font-size: 2rem;
   }
 
   .button-3 {
-    width: 100px;
-    height: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
-    font-size: 12px;
-    line-height: 18px;
+    width: 6rem;
+    height: 2rem;
+    margin-right: 0vw;
+    margin-left: 0vw;
+    font-size: 0.8rem;
+    line-height: 1rem;
   }
 
   .image-8 {
-    width: 200px;
+    width: auto;
+  }
+
+  .container-4 {
+    padding-top: 10vw;
+    padding-bottom: 20vw;
   }
 
   .paragraph-2 {
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+
+  .section-7 {
+    padding-right: 5vw;
+    padding-left: 5vw;
   }
 
   .paragraph-copy {
-    margin-bottom: 1px;
-    font-size: 14px;
-    line-height: 20px;
+    margin-bottom: 2vw;
+    font-size: 1rem;
+    line-height: 1.3rem;
   }
 
   .paragraph-3 {
-    padding-right: 20px;
-    padding-left: 20px;
-    font-size: 14px;
-    line-height: 20px;
+    margin-bottom: 2vw;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    font-size: 1rem;
+    line-height: 1.3rem;
   }
 
   .heading-2 {
     margin-top: 0px;
+    margin-bottom: 2vw;
   }
 
   .div-block-6 {
     left: 56%;
-    top: 38%;
+    top: 62%;
   }
 
   .container-5 {
-    padding-bottom: 60px;
+    padding-bottom: 20vw;
   }
 
   .container-6 {
@@ -1081,26 +1094,18 @@ body {
   }
 
   .html-embed {
-    width: 275px;
-    max-width: 275px;
-  }
-
-  .container-7 {
-    padding-bottom: 60px;
+    width: auto;
+    max-width: none;
   }
 
   .heading-4 {
-    font-size: 19px;
-    line-height: 28px;
-    letter-spacing: 1px;
-  }
-
-  .section-8 {
-    padding-top: 20px;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.1rem;
   }
 }
 
-#w-node-d83dcf16-90c8-eb4a-1e76-51896921320c-c3d4aa97 {
+#w-node-d83dcf16-90c8-eb4a-1e76-51896921320c-fd1e1d97 {
   -ms-grid-column: 7;
   grid-column-start: 7;
   -ms-grid-column-span: 2;
