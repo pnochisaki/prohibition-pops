@@ -43,7 +43,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
+  overflow: visible;
   max-width: 90%;
   padding-right: 0vw;
   padding-left: 0vw;
@@ -58,6 +58,7 @@ body {
 
 .image-5 {
   max-width: 50%;
+  padding-right: 1vw;
 }
 
 .heading {
@@ -91,10 +92,10 @@ body {
 
 .div-block {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 5vw;
+  padding-left: 1vw;
 }
 
 .hero-section {
@@ -146,6 +147,7 @@ body {
   position: static;
   display: inline-block;
   max-width: 52%;
+  padding-left: 1vw;
   -webkit-box-ordinal-group: 2;
   -webkit-order: 1;
   -ms-flex-order: 1;
@@ -172,7 +174,7 @@ body {
 }
 
 .div-block-2 {
-  padding-right: 5vw;
+  padding-right: 1vw;
 }
 
 .section-3 {
@@ -252,7 +254,9 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 5vw 20vw;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5vw 0vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -359,7 +363,7 @@ body {
 .paragraph-3 {
   position: relative;
   display: block;
-  max-width: 480px;
+  max-width: 100%;
   margin: 0vw 0px;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -506,8 +510,8 @@ body {
 
 .html-embed {
   display: block;
-  width: auto;
-  max-width: none;
+  width: 80rem;
+  max-width: 100%;
   margin-right: auto;
   margin-bottom: 0vw;
   margin-left: auto;
@@ -545,7 +549,7 @@ body {
   }
 
   .container {
-    left: 0px;
+    left: auto;
     display: block;
   }
 
@@ -587,15 +591,15 @@ body {
 
   .div-block {
     position: relative;
-    left: 313px;
+    left: 25%;
     top: 0%;
     right: 0%;
     bottom: 0%;
-    display: inline-block;
-    max-width: 350px;
+    display: block;
+    max-width: 50%;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 100px;
+    padding-left: 1vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -629,21 +633,23 @@ body {
     top: 0%;
     right: 0%;
     bottom: 0%;
+    max-width: 50%;
     padding-top: 0vw;
   }
 
   .container-2 {
     position: relative;
     display: block;
+    overflow: visible;
   }
 
   .div-block-2 {
     position: relative;
     display: inline-block;
-    max-width: 350px;
+    max-width: 50%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 100px;
+    padding-right: 1vw;
   }
 
   .section-3 {
@@ -679,7 +685,7 @@ body {
 
   .paragraph-2 {
     font-size: 1rem;
-    line-height: 1.3rem;
+    line-height: 1.2rem;
   }
 
   .image-9 {
@@ -755,8 +761,8 @@ body {
   }
 
   .html-embed {
-    width: auto;
-    max-width: none;
+    width: 40rem;
+    max-width: 100%;
   }
 
   .heading-4 {
@@ -780,7 +786,7 @@ body {
   }
 
   .image-5 {
-    max-width: 53%;
+    max-width: 50%;
   }
 
   .heading {
@@ -793,6 +799,7 @@ body {
     top: auto;
     right: auto;
     bottom: auto;
+    display: inline-block;
     max-width: none;
     margin-bottom: 0vw;
     font-size: 1rem;
@@ -802,8 +809,8 @@ body {
   .div-block {
     top: auto;
     bottom: auto;
-    max-width: 175px;
-    padding-left: 0px;
+    max-width: 50%;
+    padding-left: 5vw;
   }
 
   .hero-section {
@@ -824,17 +831,17 @@ body {
   }
 
   .image-6 {
-    max-width: 53%;
+    max-width: 50%;
   }
 
   .container-2 {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 0vw;
+    padding-left: 0vw;
   }
 
   .div-block-2 {
-    max-width: 175px;
-    padding-right: 0px;
+    max-width: 50%;
+    padding-right: 5vw;
   }
 
   .section-3 {
@@ -862,14 +869,18 @@ body {
     width: auto;
   }
 
+  .image-8 {
+    margin-bottom: 12vw;
+  }
+
   .container-4 {
     padding-top: 40px;
     padding-bottom: 8px;
   }
 
   .paragraph-2 {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 1rem;
+    line-height: 1.1rem;
   }
 
   .image-9 {
@@ -885,7 +896,7 @@ body {
   }
 
   .paragraph-copy {
-    max-width: 220px;
+    max-width: none;
     font-size: 1rem;
     line-height: 1.1rem;
   }
@@ -915,14 +926,14 @@ body {
   }
 
   .container-6 {
-    max-width: 500px;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
   }
 
   .html-embed {
-    width: auto;
-    max-width: none;
+    width: 30rem;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -965,6 +976,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     padding-top: 0px;
+    padding-right: 0vw;
   }
 
   .heading {
@@ -972,7 +984,10 @@ body {
   }
 
   .paragraph {
+    display: block;
+    margin-right: auto;
     margin-bottom: 2vw;
+    margin-left: auto;
     font-size: 1rem;
     line-height: 1.3rem;
   }
@@ -985,6 +1000,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     padding-top: 10vw;
+    padding-left: 0vw;
   }
 
   .hero-section {
@@ -993,6 +1009,8 @@ body {
   }
 
   .section-2 {
+    margin-right: auto;
+    margin-left: auto;
     padding: 25vw 0px 0vw;
   }
 
@@ -1004,9 +1022,12 @@ body {
     margin-right: auto;
     margin-left: auto;
     padding-top: 0px;
+    padding-left: 0vw;
   }
 
   .container-2 {
+    margin-right: auto;
+    margin-left: auto;
     padding-right: 0vw;
     padding-left: 0vw;
   }
@@ -1015,6 +1036,7 @@ body {
     display: block;
     max-width: 100%;
     padding-top: 10vw;
+    padding-right: 0vw;
   }
 
   .section-3 {
@@ -1044,6 +1066,7 @@ body {
 
   .image-8 {
     width: auto;
+    margin-bottom: 7vw;
   }
 
   .container-4 {
@@ -1090,12 +1113,12 @@ body {
   }
 
   .container-6 {
-    max-width: 300px;
+    max-width: 100%;
   }
 
   .html-embed {
-    width: auto;
-    max-width: none;
+    width: 18rem;
+    max-width: 100%;
   }
 
   .heading-4 {
