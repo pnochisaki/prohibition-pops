@@ -457,7 +457,7 @@ body {
   right: auto;
   bottom: auto;
   display: block;
-  overflow: hidden;
+  overflow: visible;
   margin: auto;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -473,7 +473,7 @@ body {
   position: absolute;
   left: 48%;
   top: -3%;
-  overflow: hidden;
+  overflow: visible;
   margin: auto;
 }
 
@@ -482,7 +482,8 @@ body {
   left: -3%;
   top: 17%;
   bottom: auto;
-  overflow: hidden;
+  display: block;
+  overflow: visible;
   margin: auto;
 }
 
