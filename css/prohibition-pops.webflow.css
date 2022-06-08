@@ -222,9 +222,9 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 100rem;
-  margin-top: 3vw;
-  padding: 0px 5vw;
+  height: auto;
+  margin-top: 0px;
+  padding: 4vw;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -808,9 +808,9 @@ body {
 
   .section-5 {
     height: 55rem;
-    margin-top: 0vw;
-    padding-right: 15vw;
-    padding-left: 15vw;
+    margin-top: 0px;
+    padding-right: 4vw;
+    padding-left: 4vw;
   }
 
   .heading-3 {
@@ -1009,7 +1009,7 @@ body {
 
   .section-5 {
     height: 50rem;
-    margin-top: 0vw;
+    margin-top: 0px;
   }
 
   .heading-3 {
@@ -1211,7 +1211,7 @@ body {
 
   .section-5 {
     height: 60rem;
-    margin-top: 2rem;
+    margin-top: 0px;
   }
 
   .heading-3 {
