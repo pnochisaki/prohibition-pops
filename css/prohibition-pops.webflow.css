@@ -193,7 +193,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
+  overflow: visible;
   max-width: 90%;
   padding-right: 0vw;
   padding-left: 0vw;
