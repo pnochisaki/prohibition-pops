@@ -118,7 +118,7 @@ body {
   padding-bottom: 22vw;
 }
 
-.section-2 {
+.product-section-1 {
   position: static;
   margin: 0px;
   padding: 15vw 0px 0vw;
@@ -210,14 +210,14 @@ body {
   padding-right: 1vw;
 }
 
-.section-3 {
+.product-section-2 {
   position: static;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 10vw 0px;
 }
 
-.section-5 {
+.wholesale-section {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -251,7 +251,7 @@ body {
   padding-top: 0px;
 }
 
-.section-6 {
+.instagram-section {
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -319,7 +319,7 @@ body {
   letter-spacing: 0rem;
 }
 
-.section-7 {
+.footer-section {
   padding-right: 20vw;
   padding-left: 20vw;
 }
@@ -758,7 +758,7 @@ body {
     padding-bottom: 22vw;
   }
 
-  .section-2 {
+  .product-section-1 {
     padding: 15vw 0vw 29px;
   }
 
@@ -800,13 +800,13 @@ body {
     padding-right: 1vw;
   }
 
-  .section-3 {
+  .product-section-2 {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 5vw 0vw;
   }
 
-  .section-5 {
+  .wholesale-section {
     height: 55rem;
     margin-top: 0px;
     padding-right: 4vw;
@@ -976,7 +976,7 @@ body {
     padding-bottom: 80px;
   }
 
-  .section-2 {
+  .product-section-1 {
     padding-top: 10vw;
     padding-bottom: 10vw;
   }
@@ -1003,11 +1003,11 @@ body {
     padding-right: 5vw;
   }
 
-  .section-3 {
+  .product-section-2 {
     padding: 1em 0vw 5vw;
   }
 
-  .section-5 {
+  .wholesale-section {
     height: 50rem;
     margin-top: 0px;
   }
@@ -1017,7 +1017,7 @@ body {
     line-height: 2rem;
   }
 
-  .section-6 {
+  .instagram-section {
     width: auto;
   }
 
@@ -1172,7 +1172,7 @@ body {
     padding-bottom: 30vw;
   }
 
-  .section-2 {
+  .product-section-1 {
     margin-right: auto;
     margin-left: auto;
     padding: 25vw 0px 0vw;
@@ -1203,13 +1203,13 @@ body {
     padding-right: 0vw;
   }
 
-  .section-3 {
+  .product-section-2 {
     position: static;
     margin-top: 0vw;
     padding: 0rem 0px 0vw;
   }
 
-  .section-5 {
+  .wholesale-section {
     height: 60rem;
     margin-top: 0px;
   }
@@ -1236,7 +1236,7 @@ body {
     line-height: 1rem;
   }
 
-  .section-7 {
+  .footer-section {
     padding-right: 5vw;
     padding-left: 5vw;
   }
