@@ -41,7 +41,8 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #5aa02c;
+  /* background-color: #5aa02c; */
+  background-color: #ff0072;
   box-shadow: 3px 3px 20px -2px rgba(0, 0, 0, 0.74);
   font-size: 1.5rem;
   line-height: 1.5rem;
@@ -1210,7 +1211,7 @@ body {
   }
 
   .wholesale-section {
-    height: 60rem;
+    height: 20rem;
     margin-top: 0px;
   }
 
