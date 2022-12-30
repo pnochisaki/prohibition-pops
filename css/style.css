@@ -1,0 +1,448 @@
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  line-height: 1.2;
+}
+
+.button {}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+sup {
+  top: -1.75em
+}
+
+/* FONTZ */
+
+h1 {
+  display: none;
+}
+
+h2,
+header nav,
+blockquote,
+section.about p em:first-of-type,
+.billboard .headline,
+.selling-points li:not(:first-child),
+.button {
+  font-family: 'BW Beto';
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  header nav {
+    font-family: inherit;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+}
+
+h2,
+.billboard .headline {
+  font-size: 3rem;
+}
+
+@media (min-width: 769px) {
+
+  h2,
+  .billboard .headline {
+    font-size: 4rem;
+  }
+}
+
+
+article h2 {
+  font-size: 5rem;
+  line-height: 1;
+}
+
+h2 span {
+  font-size: 2.25rem;
+  display: block;
+}
+
+blockquote {
+  font-size: 2rem;
+}
+
+nav,
+section.about p em:first-of-type {
+  font-size: 1.5rem;
+  font-style: normal;
+}
+
+
+/* GLOBAL */
+
+.container {
+  max-width: 1024px;
+  margin: auto;
+}
+
+a {
+  color: #000;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+header .logo {
+  display: inline-block;
+  max-width: 10rem;
+}
+
+@media (min-width: 769px) {
+  header .logo {
+    max-width: 16rem;
+  }
+}
+
+header nav {
+  padding: 1rem 0;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav ul li {
+  padding: 0 .5rem;
+}
+
+@media (min-width: 769px) {
+  header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  header .logo {
+    margin-right: 12rem;
+  }
+
+  header nav ul li {
+    padding: 0 1.5rem;
+  }
+
+
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav a {
+  text-decoration: none;
+}
+
+
+/* BILLBOARD */
+
+.billboard {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 2rem;
+  text-align: center;
+  background-image: url(/images/billboard-mobile.jpg);
+  padding-top: 24rem;
+}
+
+@media (min-width: 769px) {
+  .billboard {
+    background-image: url(/images/billboard.jpg);
+    background-position: center;
+    min-height: 45rem;
+    padding-top: 0;
+    padding-left: 33%;
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .billboard .headline {
+    width: 26rem;
+  }
+
+  .billboard p {
+    line-height: 2;
+    font-size: 1.5rem;
+    width: 26rem;
+  }
+
+}
+
+
+/* Flavors */
+
+.flavors article {
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  .flavors article .container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: left;
+  }
+
+  .flavors article .copy {
+    padding-left: 4rem;
+    line-height: 1.5;
+  }
+
+  .flavors article .copy p {
+    margin: 1rem 0;
+  }
+
+  .flavors article h2 {
+    margin: 0;
+  }
+}
+
+.flavors article .copy .stats .abv p {
+  margin: 0;
+}
+
+.stats .abv {
+  background: #fff;
+  padding: 1rem;
+  margin-right: .5rem;
+  height: 4rem;
+}
+
+
+
+.stats {
+  display: flex;
+  height: auto;
+  border: 1px solid #fff;
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.stats .ingredients,
+.stats .info {
+  font-size: .8rem;
+  padding: .5rem;
+}
+
+.stats .ingredients:before,
+.stats .info:before {
+  content: "Ingredients";
+  display: block;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .125rem;
+  padding: .25rem 0;
+}
+
+.stats .info:before {
+  content: "Info";
+}
+
+article.daq33 {
+  background: #8ec545;
+}
+
+article.bourbon-buck {
+  background: #dd654a;
+}
+
+article.pink-lemonade {
+  background: #ff9597;
+}
+
+article.daq33 .abv {
+  color: #8ec545;
+}
+
+article.bourbon-buck .abv {
+  color: #dd654a;
+}
+
+article.pink-lemonade .abv {
+  color: #ff9597;
+}
+
+/* reveal   */
+
+.flavors article img {
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.flavors article img.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.flavors article .copy {
+  position: relative;
+  transform: translateX(-150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.flavors article .copy.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+@media (min-width: 769px) {
+  .flavors article img {
+    transform: translateY(50px);
+  }
+  .flavors article img.active {
+    transform: translateY(0);
+  }
+
+  .flavors article .copy {
+    transform: translateX(-150px);
+  }
+  .flavors article .copy.active {
+    transform: translateX(0);
+  }
+}
+
+
+
+
+/* About */
+
+section.about p,
+section.about h2 {
+  padding: 0 2rem;
+  line-height: 1.5;
+}
+
+@media (min-width: 769px) {
+
+  section.about p,
+  section.about h2 {
+    padding: 0 8rem;
+  }
+
+  section.about blockquote {
+    padding: 0 6rem;
+  }
+}
+
+
+
+/* ABV */
+
+.abv {
+  text-align: center;
+  letter-spacing: .5rem;
+  ;
+  font-size: .75rem;
+}
+
+.abv sup {
+  font-size: 1rem;
+  /* transform: translate(.125rem, -.65rem); */
+  /* display: inline-block; */
+}
+
+.abv strong {
+  font-family: 'BW Beto';
+  font-size: 3.5rem;
+  line-height: 1;
+  letter-spacing: normal;
+}
+
+
+/* Selling Points */
+
+ul.selling-points {
+  margin: 2rem;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul.selling-points {
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  ul.selling-points {
+    display: flex;
+    margin: 2rem auto;
+    width: 35rem;
+  }
+
+  ul.selling-points .abv {
+    margin-right: 2rem;
+  }
+}
+
+ul.selling-points li {
+  padding: .5rem;
+}
+
+.selling-points li:not(:first-child):before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-image: url(/images/checkmark.jpg);
+  background-repeat: none;
+  background-size: cover;
+  margin-right: .5rem;
+}
+
+
+.instagram {
+  padding: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+footer p {
+  max-width: 600px;
+  font-size: .85rem;
+  margin: 1rem auto;
+}
+
+footer .logo {
+  display: block;
+  width: 20rem;
+  margin: auto;
+}
+
+/* Button */
+.button {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin: 2.5rem 0 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+a.button {
+  border-bottom: 2px solid #fff;
+}
+a.button:after {
+  content: "›";
+  display: inline-block;
+  margin-left: .5rem;
+}
