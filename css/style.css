@@ -155,6 +155,7 @@ header nav a {
   text-align: center;
   background-image: url(/images/billboard-mobile.jpg);
   padding-top: 24rem;
+  overflow: hidden
 }
 
 @media (min-width: 769px) {
@@ -181,7 +182,16 @@ header nav a {
 
 }
 
-
+.billboard .copy {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.billboard .copy.active {
+  transform: translateY(0);
+  opacity: 1;
+}
 /* Flavors */
 
 .flavors article {

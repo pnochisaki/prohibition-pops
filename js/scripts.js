@@ -1,5 +1,5 @@
 function reveal() {
-  var reveals = document.querySelectorAll(".flavors article img, .flavors article .copy")
+  var reveals = document.querySelectorAll(".flavors article img, .flavors article .copy, .billboard .copy")
   for (var i = 0; i < reveals.length; i++) {
     var windowHeight = window.innerHeight;
     var elementTop = reveals[i].getBoundingClientRect().top;
