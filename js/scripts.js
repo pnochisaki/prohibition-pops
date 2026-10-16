@@ -11,6 +11,7 @@ function reveal() {
     }
   }
 }
+document.getElementById("year").textContent = new Date().getFullYear();
 
 
 window.addEventListener("scroll", reveal);
